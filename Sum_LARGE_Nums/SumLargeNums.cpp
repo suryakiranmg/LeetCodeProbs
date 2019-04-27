@@ -2,7 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std; 
 
-//(str[i]-'0') converts char at i to a numeric digit.
+//(str[i]-'0') converts ASCII char at i to a numeric digit.
+//(str[i]+'0') converts numeric digit at i to an ASCII char.
 
 string SumLargeNums(string str1, string str2)
 {    
@@ -33,8 +34,8 @@ string SumLargeNums(string str1, string str2)
 
 int main()  
 { 
-    string str1 = "9999999999999999999999999999999999999999999999999999999";
-    string str2 = "999999999999999999999999999999999999999999999999999999999999999999999";
+    string str1 = "99999999999999999999999999999999999999999999999999999999";
+    string str2 = "99999999999999999999999999999999999999999999999999999999999999999999999";
     cout<<SumLargeNums(str1,str2);
 
     return 0;
