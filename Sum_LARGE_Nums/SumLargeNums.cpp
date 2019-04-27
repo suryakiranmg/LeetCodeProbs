@@ -33,8 +33,8 @@ string SumLargeNums(string str1, string str2)
 
 int main()  
 { 
-    string str1 = "1";
-    string str2 = "786";
+    string str1 = "9999999999999999999999999999999999999999999999999999999";
+    string str2 = "999999999999999999999999999999999999999999999999999999999999999999999";
     cout<<SumLargeNums(str1,str2);
 
     return 0;
