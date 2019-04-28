@@ -1,4 +1,4 @@
-//Function to convert string to integer : int atoi (const char * str);
+//Function to convert a Binary Number to Decimal No.
 #include <bits/stdc++.h>
 using namespace std; 
 
