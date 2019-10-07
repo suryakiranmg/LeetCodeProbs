@@ -41,6 +41,7 @@ int main()
     //Lowest Set bit of a num => AND num with its 2's complement
     num = 16;
     num = num & (-num);
+    //log2(num) gives position of 1
     (num==1)?cout<<num:cout<<(log2(num))+1;
  
   return 0; 
