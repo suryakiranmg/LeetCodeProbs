@@ -9,10 +9,11 @@ int main()
  long int num = (num1*den2)+(num2*den1);
  long int den = den1*den2;
  int a= num,b=den,r;
+ //GCD
  while(a!=0)
  {
  r = b%a;
- b=a;
+ b=a; //GCD value
  a=r;
  }
  num = num/b; den = den/b;
