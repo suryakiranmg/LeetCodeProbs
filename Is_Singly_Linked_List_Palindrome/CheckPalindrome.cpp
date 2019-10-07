@@ -5,7 +5,8 @@ class Node
 { 
 public:
     int data;
-    Node *ptr;
+    Node *next;
+    //Constructor
     Node(int d) {data = d;}  
 };
 
@@ -17,7 +18,7 @@ bool Palindrome(Node* head)
     while(temp != NULL) //push elements to stack
     {
         s.push(temp->data);
-        temp = temp->ptr;
+        temp = temp->next;
     }
     
     //Pop from stack and check for matching
@@ -27,7 +28,7 @@ bool Palindrome(Node* head)
         i = s.top();//get top element
         s.pop();
         if(head->data != i) return false;
-        head = head->ptr;
+        head = head->next;
     }
     return true;
 }
