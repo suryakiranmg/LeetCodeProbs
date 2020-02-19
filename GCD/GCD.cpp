@@ -1,4 +1,5 @@
-//Reverse digits of a number
+//GCD of 2 numbers
+
 #include <bits/stdc++.h>
 using namespace std; 
 
