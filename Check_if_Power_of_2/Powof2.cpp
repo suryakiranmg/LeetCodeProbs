@@ -5,12 +5,14 @@ using namespace std;
 class CheckPowerof2
 {
 public:
+    
 //APPROACH 1 : Take log2
 bool IsPowerofTwo(int n)
 {
     if(n==0 | n==1) return false;
     return(ceil(log2(n))) == (floor(log2(n)));
 }
+    
 //APPROACH 2 : Divide by 2 till 1 or 0
 bool isPowerofTwo(int n)
 {
@@ -22,6 +24,7 @@ bool isPowerofTwo(int n)
     }
     return true;
 }
+    
 //APPROACH 3 : Count no. of set bits
 bool Is_PowerofTwo(int n)
 {
@@ -34,6 +37,7 @@ bool Is_PowerofTwo(int n)
     }
     return (count==1)? true:false;
 }
+    
 //APPROACH 4 : Count # set bits using Brian Kernighan’s Algorithm
 bool is_PowerofTwo(int n)
 {
@@ -46,6 +50,7 @@ bool is_PowerofTwo(int n)
     }
     return (count==1)? true:false;
 }
+    
 //APPROACH 5: Check if its just one bit that's set by Brian Kernighan's algo.
 bool is__PowerOfTwo (int n) 
 { 
