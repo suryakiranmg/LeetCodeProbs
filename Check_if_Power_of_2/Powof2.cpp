@@ -61,15 +61,19 @@ int main()
     //APPROACH 1 : Take log2
    suki.IsPowerofTwo(123)? cout<<"Yes"<<endl : cout<<"No"<<endl;
    suki.IsPowerofTwo(64)? cout<<"Yes"<<endl : cout<<"No"<<endl;
+    
    //APPROACH 2 : Divide by 2 till 1 or 0
    suki.isPowerofTwo(123)? cout<<"Yes"<<endl : cout<<"No"<<endl;
    suki.isPowerofTwo(64)? cout<<"Yes"<<endl : cout<<"No"<<endl;
+    
    //APPROACH 3 : Count no. of set bits
    suki.Is_PowerofTwo(123)? cout<<"Yes"<<endl : cout<<"No"<<endl;
    suki.Is_PowerofTwo(64)? cout<<"Yes"<<endl : cout<<"No"<<endl;
+    
    //APPROACH 4: Count no. of set bits using Brian Kernighan's algorithm
    suki.is_PowerofTwo(123)? cout<<"Yes"<<endl : cout<<"No"<<endl;
    suki.is_PowerofTwo(64)? cout<<"Yes"<<endl : cout<<"No"<<endl;
+    
    //APPROACH 5: Check if its just one bit that's set by Brian Kernighan's algo.
    suki.is__PowerOfTwo(123)? cout<<"Yes"<<endl : cout<<"No"<<endl;
    suki.is__PowerOfTwo(64)? cout<<"Yes"<<endl : cout<<"No"<<endl;
